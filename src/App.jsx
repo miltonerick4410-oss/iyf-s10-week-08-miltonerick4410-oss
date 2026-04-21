@@ -1,10 +1,12 @@
+
+import "./App.css";
 import Header from "./components/Header";
 import PostCard from "./components/PostCard";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div id="center">
       <Header />
 
       <main>
@@ -24,6 +26,7 @@ function App() {
           date="2026"
         />
       </main>
+
       <Footer />
     </div>
   );

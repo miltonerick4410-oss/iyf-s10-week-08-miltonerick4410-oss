@@ -3,7 +3,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2026 CommunityHub</p>
+      <p>© 2026 Community Hub</p>
     </footer>
   );
 }

@@ -2,11 +2,11 @@
 function Header() {
   return (
     <header>
-      <h2>CommunityHub</h2>
+      <h2>Community Hub</h2>
 
       <nav>
-        <a href="#">Home</a> | 
-        <a href="#">Posts</a> | 
+        <a href="App.jsx">Home</a> | 
+        <a href="Postcard.jsx">Posts</a> | 
         <a href="#">About</a>
       </nav>
     </header>
