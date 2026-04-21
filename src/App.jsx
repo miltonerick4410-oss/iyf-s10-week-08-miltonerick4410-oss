@@ -1,8 +1,30 @@
+import Header from "./components/Header";
+import PostCard from "./components/PostCard";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div>
-      <h1>CommunityHub is Ready </h1>
-      <p>React setup successful</p>
+      <Header />
+
+      <main>
+        <h2>Posts</h2>
+
+        <PostCard
+          title="Learning React"
+          excerpt="React makes UI easy"
+          author="Milton"
+          date="2026"
+        />
+
+        <PostCard
+          title="JavaScript Basics"
+          excerpt="JS is powerful"
+          author="Milton"
+          date="2026"
+        />
+      </main>
+      <Footer />
     </div>
   );
 }
